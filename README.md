@@ -1,2 +1,2 @@
-# neuroscitechie.github.io
-Neuroscitechie blog
+# Neuroscitechie blog
+This is blog of a Neurotechnology PhD student.
