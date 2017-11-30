@@ -1,0 +1,15 @@
+title: Neuroscitechie Blog
+email: neuroscitech@gmail.com
+description: Neuroscitechie, introspections on on Machine Learning, Deep Learning and PhD Learning..
+baseurl: ""
+url: "http://neuroscitechie.github.io"
+twitter_username: neuroscitechie
+github_username: neuroscitechie
+
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
