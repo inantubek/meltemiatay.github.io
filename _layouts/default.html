@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
 		        	<li><a href="/about/about.md">About</a></li>
 	        		<li><a href="/portolio/portfolio.md">Portfolio</a></li>
 	        		<li><a href="/_posts">Blog</a></li>
 	    		</ul>
-			</nav>
-			<div class="container">
+		</nav>
+			
+		<div class="container">
 			
 			{{ content }}
-			
-			</div>
+		</div>
 			
 		<footer>
 		<ul>
@@ -26,5 +25,5 @@
 		    <li><a href="https://github.com/neuroscitechie">github=@neuroscitechie</a></li>
 		</ul>
 	       </footer>
-		</body>
-	</html>
+        </body>
+</html>
