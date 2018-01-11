@@ -5,7 +5,7 @@ baseurl: ""
 url: "http://neuroscitechie.github.io"
 twitter_username: neuroscitechie
 github_username: neuroscitechie
-
+permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 permalink: pretty
 highlighter: rouge
