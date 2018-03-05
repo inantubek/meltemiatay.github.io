@@ -18,7 +18,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: #555;    
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
 }
 h1 {
     font-size: 3em;
