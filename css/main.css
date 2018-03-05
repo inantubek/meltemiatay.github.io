@@ -33,10 +33,10 @@ p {
 }
 
 .footer {
-   position: absolute;    
+   position:relative ;    
    border-top: 1px solid #d5d5d5;
-   bottom: 8px;
-   left:16px;
+   bottom: 0px;
+   left:10px;
    font-size: .8em;
 }
 
