@@ -14,10 +14,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #dc143c;
 }
 a:hover {
     text-decoration: underline;
+    color: #555;    
 }
 h1 {
     font-size: 3em;
@@ -26,7 +27,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #dc143c;
 }
 .container {
     position: relative;
@@ -34,7 +35,7 @@ p {
 
 .footer {
    position:relative ;    
-   border-top: 1px solid #d5d5d5;
+   border-top: 1px solid #dc143c;
    bottom: 0px;
    left:10px;
    font-size: .8em;
