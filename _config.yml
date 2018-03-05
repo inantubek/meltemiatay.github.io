@@ -3,3 +3,5 @@ name: Neuroscitechie, introspections on on Machine Learning, Deep Learning and P
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
+twitter_username:    neuroscitechie
+github_username:     Neuroscitechie
