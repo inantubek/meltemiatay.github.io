@@ -1,6 +1,4 @@
-$main-color:#dc143c;
-$body-color:#000000;
-$secondary-color:#778899;
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -17,11 +15,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: $main-color;
+    color: #dc143c;
 }
 a:hover {
     text-decoration: underline;
-    color: $secondary-color
+    color: #778899;
 }
 h1 {
     font-size: 3em;
@@ -30,7 +28,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: $body-color
+    color: :#000000;
 }
 .container {
     position: relative;
