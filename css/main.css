@@ -24,12 +24,17 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #1a1a1a;
+    color: #1f1f1f;
+}
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #1f1f1f;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: :##1a1a1a
+    color: :#1a1a1a
 }
 .container {
     position: relative;
@@ -38,7 +43,7 @@ p {
 
 .footer {
    position:relative ; 
-   color: #1a1a1a;
+   color: #616161;
    border-top: 1px solid #dc143c;
    bottom: 0px;
    left:10px;
