@@ -4,5 +4,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
 github_username:     Neuroscitechie
-medium_username:     @neuroscitech
+medium_username:     neuroscitech
 twitter_username:    neuroscitechie
