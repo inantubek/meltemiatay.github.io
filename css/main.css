@@ -49,6 +49,14 @@ p {
    bottom: 0px;
    left:10px;
 }
+icons {
+   position:relative; 
+   font-size: 3em;
+   color: #616161;
+   border-top: 1px solid #dc143c;
+   bottom: 0px;
+   left:10px;
+}
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
