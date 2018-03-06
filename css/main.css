@@ -43,6 +43,7 @@ p {
 
 .footer {
    position:relative ; 
+   font-size: .5em;
    color: #616161;
    border-top: 1px solid #dc143c;
    bottom: 0px;
