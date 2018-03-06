@@ -5,7 +5,8 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    font-size: 2em;
+    padding: 1px;
     list-style: none;
     font-weight: bold;
 }
@@ -46,7 +47,7 @@ p {
    border-top: 1px solid #dc143c;
    bottom: 0px;
    left:10px;
-   font-size: .8em;
+   font-size: 1em;
 }
 
 /* Blog */
