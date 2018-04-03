@@ -3,7 +3,7 @@ name: Neuroscitechie, introspections on on Machine Learning, Deep Learning and P
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
-github_username:     Neuroscitechie
+github_username:     neuromeltemi
 medium_username:     neuroscitech
 meetup_username:     211539050
 google_analytics:    UA-115611361-1
