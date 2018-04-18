@@ -27,7 +27,7 @@
     
 <div class="footer">
   <ul>
-  <li><p>This project is maintained by <a href="https://github.com/neuromeltemi">neuromeltemi</a></p></li>
+  <li><p>This project is maintained by <a href="https://github.com/neuromeltemi">Meltem</a></p></li>
   <li><p><small>Hosted on GitHub Pages &mdash; <sub>Theme by <a href="https://github.com/orderedlist">orderedlist</sub></a></small></p></li>
   </ul>
 </div>
@@ -40,6 +40,10 @@
     {% if site.medium_username %}
     <a href="https://medium.com/@{{ site.medium_username }}">
       <i class="fa fa-medium"></i></a>
+{% endif %}
+      {% if site.twitter_username %}
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i></a>
 {% endif %}
   </ul>
 </div>
