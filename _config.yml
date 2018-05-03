@@ -1,5 +1,5 @@
 
-name: Neuroscitechie, introspections on on Machine Learning, Deep Learning and PhD Learning..
+name: Introspections on on Machine Learning, Deep Learning and PhD Learning..
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
