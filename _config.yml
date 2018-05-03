@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
 github_username:     meltem-ai
-medium_username:     neuroscitech
+medium_username:     @meltematay
 twitter_username:    MeltemAI
 linkedin-username:   meltematay
 meetup_username:     211539050
