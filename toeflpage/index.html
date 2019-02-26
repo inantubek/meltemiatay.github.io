@@ -30,15 +30,7 @@ p.b {
 
 <h1>This is a simple TOEFL writing page.</h1>
 <p class="b">Let's start!</p>
-<script type="text/javascript">
-function countWords(){
-	s = document.getElementById("inputString").value;
-	s = s.replace(/(^\s*)|(\s*$)/gi,"");
-	s = s.replace(/[ ]{2,}/gi," ");
-	s = s.replace(/\n /,"\n");
-	document.getElementById("wordcount").value = s.split(' ').length;
-}
-</script>
+
 <script>
 window.onload = function(){
     var hou = 19;
@@ -75,9 +67,7 @@ function resetTimer()
     <tr><td><p class="b">Essay:</p> <br></td></tr>
     <tr>
         <td colspan="3">
-            <textarea name="inputString" id="inputTextToSave" cols="60" rows="50">Text to count</textarea>
-            <td><input type="button" name="Convert" value="Count Words" onClick="countWords();"></td>
-           <td><input name="wordcount" type="text" value="" size="6"></td>		
+            <textarea name="inputString" id="inputTextToSave" cols="60" rows="50"></textarea>	
         </td>
     </tr>
     <tr>
@@ -130,3 +120,14 @@ function loadFileAsText()
 }
  
 </script>
+<script type="text/javascript">
+function countWords(){
+	s = document.getElementById("inputString").value;
+	s = s.replace(/(^\s*)|(\s*$)/gi,"");
+	s = s.replace(/[ ]{2,}/gi," ");
+	s = s.replace(/\n /,"\n");
+	document.getElementById("wordcount").value = s.split(' ').length;
+}	
+</script>
+<input type="button" name="Convert" value="Count Words" onClick="countWords();"> 
+<input name="wordcount" type="text" value="" size="6">
