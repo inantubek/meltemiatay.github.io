@@ -25,6 +25,7 @@ p.b {
   font-family: Arial, Helvetica, sans-serif;
 }
 </style>
+<script>
 function countWords(){
 	s = document.getElementById("inputString").value;
 	s = s.replace(/(^\s*)|(\s*$)/gi,"");
@@ -32,6 +33,7 @@ function countWords(){
 	s = s.replace(/\n /,"\n");
 	document.getElementById("wordcount").value = s.split(' ').length;
 }
+</script>
 <body>
 
 <h1>This is a simple TOEFL writing page.</h1>
