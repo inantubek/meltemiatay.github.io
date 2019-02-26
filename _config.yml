@@ -1,8 +1,10 @@
 
-name: Introspections on on Machine Learning, Deep Learning and PhD Learning..
+name: Perspective about Machine Learning, Deep Learning and PhD Learning..
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
+title: [Meltem's Site]
+description: [Summary of the learning]
 github_username:     meltemiatay
 medium_username:     meltematay
 twitter_username:    meltamataynsnt
