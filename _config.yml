@@ -2,7 +2,7 @@
 name: Introspections on on Machine Learning, Deep Learning and PhD Learning..
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 github_username:     meltemiatay
 medium_username:     meltematay
 twitter_username:    meltamataynsnt
